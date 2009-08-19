@@ -25,7 +25,7 @@ LOCAL_MODULE:= libgnl
 LOCAL_C_INCLUDES := \
 	$(LOCAL_PATH)   \
 	external/gstreamer	   \
-	external/gstreamer/android	  \
+	external/gstreamer/android/arch/$(TARGET_ARCH)	  \
 	external/gstreamer/gst	\
 	external/gstreamer/gst/android	\
 	external/gstreamer/libs \
